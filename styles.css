@@ -1,0 +1,156 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800; 
+    color: #343a40;
+}
+
+/* Navigation Bar */
+nav.navbar {
+    background-color: #343a40;
+    padding: 1rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav.navbar a.navbar-brand {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 800; 
+}
+
+nav.navbar a.nav-link {
+    color: #ffffff;
+}
+
+nav.navbar a.nav-link:hover {
+    color: #dee2e6;
+}
+
+/* Section styling */
+section {
+    padding: 80px 0;
+}
+
+section h2 {
+    color: #343a40;
+    font-weight: 800; 
+}
+
+/* Box styling */
+.info-box, .vivid-box {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.info-box p {
+    font-weight: 600; 
+}
+
+.profile-image {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Card styling */
+.card {
+    border: none;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    border-radius: 8px;
+}
+
+/* Contact Section */
+section#contact {
+    background-color: inherit;
+    color: #343a40;
+    padding: 80px 0;
+}
+
+.contact-box {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-box p {
+    font-weight: 600; 
+}
+
+.contact-box input, .contact-box textarea {
+    margin-bottom: 20px;
+}
+
+#contact h2 {
+    margin-bottom: 30px; 
+}
+
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Social Media Section */
+section#social-media {
+    background-color: inherit;
+    color: #343a40;
+    padding: 80px 0;
+}
+
+#social-media .card {
+    border: none;
+    box-shadow: none;
+    transition: transform 0.2s;
+    background-color: transparent;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#social-media .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#social-media .card i {
+    color: #007bff;
+}
+
+#social-media .card img {
+    border-radius: 8px;
+}
+
+#social-media .card .card-body.bold-text {
+    font-weight: bold;
+}
+
+#social-media h2 {
+    margin-bottom: 30px;
+}
+
+/* About section */
+.info-box .dot-list li {
+    font-weight: 600;
+}
+
+
+
+
+
+

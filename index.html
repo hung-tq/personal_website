@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>HungTQ - Personal Website</title>
+
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">HungTQ</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#social-media">Social Media</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- About Section -->
+        <section id="about" class="py-5">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="vivid-box text-center">
+                        <img src="assets/personal_image.jpg" alt="Your Image" class="profile-image img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+
+                    <h2 class="section-heading text-uppercase">About Me</h2>
+                    <div class="info-box">
+                        <p>Hello! I am Tran Quoc Hung</p>
+                        <p>I am a passionate and creative student learning at FPT University, Da Nang Campus</p>
+                        <p>My date of birth is January 21, 2005</p>
+                        <p>I was born in Hue and currently I am living in Da Nang</p>
+                        <p>I love turning ideas into reality and solving problems with innovative solutions.</p>
+                    </div>
+
+                    <h2 class="section-heading text-uppercase">Education</h2>
+                    <div class="info-box d-flex align-items-center">
+                        <ul class="dot-list pl-4" id="education">
+                            <li>Graduated from Quoc Hoc Hue, High School for the Gifted</li>
+                            <li>Studying Information Assurance Major at FPT University (now)</li>
+                        </ul>
+                    </div>
+
+                    <h2 class="section-heading text-uppercase">Skills</h2>
+                    <div class="info-box d-flex align-items-center">
+                        <ul class="dot-list pl-4">
+                            <li>Front-end Development: HTML, CSS, JavaScript</li>
+                            <li>Back-end Development: Node.js, Python</li>
+                            <li>Database Management: MongoDB, MySQL</li>
+                            <li>Version Control: Git, GitHub</li>
+                            <li>Programming Languages: C, C++, Java</li>
+                            <li>Problem Solving and Critical Thinking</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Media Section -->
+        <section id="social-media" class="py-5">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">Social Media</h2>
+                    <div class="card-deck">
+                        <!-- Facebook Card -->
+                        <div class="card info-box" onclick="window.open('https://facebook.com/htq.21', '_blank');">
+                            <i class="fab fa-facebook fa-3x"></i>
+                            <div class="card-body bold-text">
+                                <h5 class="card-title">Facebook</h5>
+                                <p class="card-text">Follow me on Facebook for updates and thoughts</p>
+                            </div>
+                        </div>
+
+                        <!-- Github Card -->
+                        <div class="card info-box" onclick="window.open('https://github.com/hung-tq', '_blank');">
+                            <i class="fab fa-github fa-3x"></i>
+                            <div class="card-body bold-text">
+                                <h5 class="card-title">Github</h5>
+                                <p class="card-text">Connect with me on Github for professional networking</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-5">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">Contact Me</h2>
+                    <div class="info-box contact-box mx-auto">
+                        <p>I'm currently available for new opportunities and collaborations. Feel free to reach out to me via the form below or connect with me on Facebook and Github</p>
+                        <form id="contactForm" action="https://formspree.io/f/myyrjwbn" method="POST">
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control" name="name" placeholder="Your Name">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="email" class="form-control" name="_replyto" placeholder="Your Email">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" rows="4" placeholder="Your Message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
